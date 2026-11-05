@@ -8,6 +8,21 @@ companies, cars and bookings are sample data kept in memory while the app is ope
 
 ## Run it
 
+The same code runs on both Android and iOS.
+
+### In Android Studio
+
+1. Install the **Flutter** plugin: Settings › Plugins › Marketplace, search
+   "Flutter", install it (it adds Dart too), then restart Android Studio.
+2. File › Open, and pick this folder (the one with `pubspec.yaml`).
+3. If asked, click **Pub get** at the top of `pubspec.yaml`.
+4. Choose a device at the top (an Android emulator from Device Manager, or a
+   phone with USB debugging on), then press the green Run button.
+
+iOS needs a Mac with Xcode: pick the iOS Simulator as the device and press Run.
+
+### From a terminal
+
 ```bash
 flutter pub get
 flutter run
